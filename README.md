@@ -3,7 +3,7 @@ It is a docker image built from shadowsocks/ChinaDNS on x86, updating whitelist 
 
 ## Usage
 ```
-docker run -itd --restart=always --cap-add=NET_ADMIN --net=host -e CHDNS_PORT=15353 --name router_chinadns_1 dorrypizza/chinadns-x86
+docker run -itd --restart=always --cap-add=NET_ADMIN --net=host -e CHDNS_PORT=15353 --name router_chinadns dorrypizza/chinadns-x86
 ```
 
 ## Test
