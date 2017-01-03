@@ -1,3 +1,2 @@
 #!/bin/bash
-[ -f /home/whiteip/chinaips ] || sh update-chinaips.sh
 "$1"/src/chinadns -m -c /home/whiteip/chinaips -p $CHDNS_PORT

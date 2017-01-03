@@ -25,6 +25,7 @@ RUN pwd && \
 WORKDIR /
 ADD update-chinaips.sh ./
 ADD init ./
+ADD chinaips /home/whiteip/
 
 RUN echo "0 0 * * * sh update-chinaips.sh" >> /var/spool/cron/crontabs/root
 
